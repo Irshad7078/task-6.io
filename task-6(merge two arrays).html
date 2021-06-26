@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+ <script>
+function y(arr1, arr2)
+{
+// merge two arrays
+let arr = [...arr1, ...arr2];
+
+// removing duplicate
+let uniqueArr = [...new Set(arr)];
+
+console.log(uniqueArr);
+}
+const array1 = [1, 2, 3];
+const array2 = [2, 3, 5]
+
+// calling the function
+y(array1, array2);
+</script>
+    
+</body>
+</html>
